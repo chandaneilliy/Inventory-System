@@ -19,7 +19,7 @@ public class AdminClass {
     public void settingFrameBoundaries()
     {
         jfrm.setSize(500,300);
-        jfrm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jfrm.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         jfrm.setLayout(null);
         jfrm.setLocationRelativeTo(null);
     }
