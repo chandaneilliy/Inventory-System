@@ -15,7 +15,7 @@ public class RetailShopClass {
     public void setFrameBoundaries()
     {
         jfrm.setSize(500,300);
-        jfrm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jfrm.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         jfrm.setLayout(null);
         jfrm.setLocationRelativeTo(null);
     }
